@@ -1,3 +1,15 @@
+@font-face {
+    src: url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
+    font-family: 'Big Shoulders Display', cursive;
+    
+}
+
+@font-face {
+    src: url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+    font-family: 'Lexend Deca';
+   
+}
+
 *{
     box-sizing:border-box;
     margin:0;
@@ -44,4 +56,28 @@ body{
     display: flex;
     flex-direction: column;
     background-color:hsl(179, 100%, 13%) ;        
-}      
+}     
+
+.svgSedan{
+    padding-left: 55px;
+    padding-top: 55px;
+}
+
+.svgSuv{
+    padding-left: 55px;
+    padding-top: 55px;
+    
+}
+
+.svgLuxury{
+    padding-left: 55px;
+    padding-top: 55px;
+
+}
+
+h2{
+font-family: 'Big Shoulders Display', cursive;
+padding-left: 55px;
+padding-top: 25px;
+
+}
